@@ -39,7 +39,7 @@ kompetenz (Besserwerden)Autnomi(Allein sachen machen) Zugehörigkeit(Andere leur
 - Das neue anbieten:Menschen neue wege zu denken fördert unser gehirn. Zu viel aber schreckt und ab. Mischungzwischen neu und known.
 - Beuerteilen:(Menschen Verlgeichen sich mit andere dewsewgen ein scores system sit wischtig von spiel) egagieren
 
-## 4-Meschaniken:
+## 4-Mechaniken:
 - Spielräumen:2d 3d 1d 0d , kontiunerich/Diskert(od),begrenzt/nichtbegrenzt gebiet
 - VerchalteteRaum: Zb mario 2d scene selct than 3d
 - Abstrakt raum:poker,karten spiel nicht bewegen kann 
