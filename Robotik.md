@@ -1,4 +1,4 @@
-## 1-MIddeware: Abstroction layer between os and app layer which simplyfes development & lets ->heterogenus hardware
+## 1-MIddeware: Abstraction layer between os and app layer which simplyfes development & lets ->heterogenus hardware
 - Tasks:Comunicat(entites),Computation(task),Config(robotsystesm),Cordination(architectul.system)
 - Characteristics of middwar: 1)Hardwar.abstraction,2)Scalibility&Extentibilty,3)LimtOverhead(efficent),4)AccuatorControlModel(drive,motors),5)common chareterstics for the software,6)Tools&Methods(Debug..),7)documentation(usage)
 - Framework_fawks:Re use existing modules,develop software from produc tparts, re use sotware ,maintain& costumase part of software to product new function.
@@ -28,7 +28,7 @@
   
 ## 3 Kinematics:
 ### Manipulaion vs Locomotion:
-#### LegsvsWheels:
+#### Legs vs Wheels:
 - Pose: Robot consist of rigidbodys conectetd by joints Pose describes positon and orientation in space.
 - Kineatics: Describe Poses,Speeds,acceleration of Rigidbodys:
 - Dynamics:force&Torque.
@@ -64,7 +64,7 @@
   - Derivativ Gain: Input = P_D * (err -err_prev) - use change in error
   
   
- ## 5-PathPlaning:We need start goal edge weights strategyInitalstate:S0TransitanModel:goin(aachen)=Saachen
+ ## 5-PathPlaning: We need start goal edge weights strategy Initalstate:S0 TransitanModel:goin(aachen)=value
 - SpaceState:Initalstate and actions
 - Path: Start to goal  .optimalsolutin: Cheapest path
 - SearchTree Rutplaning:
@@ -105,7 +105,7 @@ Using Bayes Filters: motivated from markov chain and baysan rule we estimate the
 Setp1)Preditction Step given prev belif predict the new belif using motion model
 step2)corrction step use messurments and messurment model to correct the belif
 
-## 6.1-GridLocalisation: aprox belif discretly using a histogram like grid over the state space
+## 6.1-GridLocalisation: approx belief discretly using a histogram like grid over the state space
 1- initialise all cells with weight 1/n
 2-every step 
 - use use motion model and messurmant model to update the weights of the cells
@@ -122,7 +122,7 @@ Advantage: multimodal ( global localization, kidnapped robot)
 
 Instances of bayes filters ---------------------------------------------------->
 
-## 6.2-Montecarlo(particleFilter):Uses n samples where each has positon and Weight
+## 6.2-MonteCarlo(particleFilter): Uses n samples where each has positon and weight
 1-Initialize samples with 1/n and postion randomly
 2-each step 
 - Prediction: we use motion model to udpate positon of all samples a
